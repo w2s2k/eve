@@ -1,5 +1,5 @@
 {
-  "name": "eve",
+  "name": "eve-cli",
   "version": "0.1.0",
   "description": "SDK tool for developers, to bootstrap projects",
   "author": "Shrink",
