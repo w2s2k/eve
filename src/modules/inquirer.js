@@ -36,6 +36,18 @@ module.exports = {
             ...client.questions,
             {
                 type: 'input',
+                name: 'repo',
+                message: 'Repository Url:',
+                validate: function( value ) {
+                    if (!value.length || require('is-git-url')(value)) {
+                      return true;
+                    } else {
+                      return 'Please enter a valid git url';
+                    }
+                }
+            },
+            {
+                type: 'input',
                 name: 'version',
                 message: 'Module Version:',
                 default: '0.1.0',
