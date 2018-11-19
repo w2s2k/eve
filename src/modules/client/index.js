@@ -1,5 +1,5 @@
 
-const {questions}    = require('./inquirer');
+const questions = require('./inquirer');
 
 module.exports = {
     questions
