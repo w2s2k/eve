@@ -1,0 +1,25 @@
+{
+  "name": "eve",
+  "version": "0.1.0",
+  "description": "SDK tool for developers, to bootstrap projects",
+  "author": "Shrink",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "dev",
+    "app",
+    "cli",
+    "tool"
+  ],
+  "bin": {
+    "eve": "./src/eve.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "commander": "^2.19.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.0",
+    "prettyjson": "^1.2.1"
+  }
+}
