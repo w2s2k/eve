@@ -28,7 +28,7 @@ npm i eve-cli -g
 
 ### eve init
 
-Create a new EVE module from prompted configurations
+Create a new EVE file module from prompted configurations
 ```shell
 eve init
 ``` 
