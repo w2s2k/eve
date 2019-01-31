@@ -12,6 +12,7 @@
 
 * [About](#about)
   - [How to install](#how-to-install)
+  - [Dev Mode](#dev-mode)
 * [Commands](#commands)
   - [`eve init`](./packages/init/README.md#webpack-cli-init)
 
@@ -23,7 +24,13 @@ EVE CLI provides a flexible set of commands for developers to increase speed whe
 ```shell
 npm i eve-cli -g
 ```
-    
+### Dev Mode
+```shell
+# inside eve folder exec
+npm link
+```
+      
+ 
 ## Commands
 
 ### eve init
